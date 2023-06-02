@@ -1,0 +1,197 @@
+/*//////////////////////////
+//         FONTS          //
+//////////////////////////*/
+
+@font-face {
+    font-family: 'poppins';
+    src: url('font/Poppins/Poppins-Black.otf');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('font/SFPRODISPLAY/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+    font-family: 'TorusNotched';
+    src: url('font/TorusNotchedRegular/Torus\ Notched\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'NORTHDEN';
+    src: url('font/NOTHDEN/NORTHDEN-FREE.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('fonts/Gilroy/Gilroy-Light.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunitoo:wght@300;500&display=swap');
+
+/*////////////////////////////
+//         GENERAL          //
+////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior:smooth;
+}
+
+body {
+    background-image: url("img/background-city.jpg");
+    z-index: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*////////////////////
+// Login - Register //
+////////////////////*/
+
+h1 {
+    font-size:2.5em;
+    font-family: 'Gilroy-Bold';
+    color:transparent;
+    -webkit-text-stroke: 2px white;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+span {
+    color:white;
+    -webkit-tex-stroke:0px white;
+}
+
+.login_register {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:80vw;
+    height:80vh;
+    background-color: rgba(183, 183, 183, 0.441);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    border-radius:30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form p {
+    font-family: 'Gilroy-Light';
+    font-size: 1.7em;
+}
+
+form a {
+    font-family: 'Gilroy-Light';
+    color:white;
+    font-size:1em;
+    transition:0.5s;
+}
+
+form a:hover {
+    color: black;
+    transition:0.5s;
+}
+
+.object {
+    width:300px;
+    height:35px;
+    border-radius: 15px;
+    padding:3px;
+    font-size:1em;
+    border:none;
+}
+
+.submit {
+    width:200px;
+    height:35px;
+    border-radius: 15px;
+    padding:3px;
+    font-size:1em;
+    border:none;
+    font-size:1.3em;
+    margin-top:20px;
+    transition:0.5s;
+}
+
+.submit:hover {
+    background-color: rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(5px);
+    color:rgb(255, 255, 255);
+    border:2px solid white;
+    transition:0.5s;
+}
+
+.object:active {
+    border:none;
+}
+
+.login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.register {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.login_register #cache {
+    position: absolute;
+    background-image: url("img/carre-ville.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+    height:100%;
+    z-index:999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(50%);
+    transition:1s;
+}
+
+.login_register #cache img {
+    backdrop-filter: blur(1px) ;
+    border-radius: 15px;
+    width:100%;
+}

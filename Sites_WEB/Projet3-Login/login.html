@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--IMETA DONNEES-->
+    <meta charset="UTF-8" http-equiv="refresh" content=" ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--IMPORTATIONS-->
+    <script src="https://kit.fontawesome.com/56e0448ca8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+
+    <!--TITRE-->
+    <title>Login - Register</title>
+
+</head>
+
+<body>
+
+    <div class="login_register">
+
+        <div class="login">
+
+            <form action="pages/login.php" method="post">
+
+                <h1>MANHATTAN <span>CITY</span></h1>
+
+                <p>Identifiant</p>
+                <input class="object" type="text" name="identifiant" maxlength="15" required/>
+
+                <p>Password</p>
+                <input class="object" type="password" name="password" required />
+
+                <input class="submit" type="submit" name="submit" value="Login" />
+
+                <a href="#" onclick="moveleft()">No account, register ?</a>
+
+            </form>
+
+        </div>
+
+        <div class="register">
+
+            <form action="pages/register.php" method="post">
+
+                <h1>MANHATTAN <span>CITY</span></h1>
+
+                <p>Identifiant</p>
+                <input class="object" type="text" name="identifiant" maxlength="15" required/>
+
+                <p>Password</p>
+                <input class="object" type="password" name="password" required />
+
+                <p>Confirm password</p>
+                <input class="object" type="password" name="confirm_password" required />
+
+                <input class="submit" type="submit" name="submit" value="Register" />
+
+                <a href="#" onclick="moveright()">Already Sign ?</a>
+
+            </form>
+
+        </div>
+
+        <div id="cache">
+            <img src="img/logos/logo1.png" alt="logo">
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

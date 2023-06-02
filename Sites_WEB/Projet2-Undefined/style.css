@@ -1,0 +1,89 @@
+/*/////////////////////////////////
+//             FONTS             //
+/////////////////////////////////*/
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('fonts/Gilroy/Gilroy-Light.otf');
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////
+//           GENERAL            //
+////////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior:smooth;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*////////////////////////////////
+//           ACCEUIL            //
+////////////////////////////////*/
+
+.acceuil {
+    background: #080610 ;
+    height : 100vh;
+    width: 100%;
+}
+
+.acceuil h1 {
+    font-size: 8em;
+    color: aliceblue;
+    font-family: 'Gilroy-Bold';
+}
+
+.acceuil .rond {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    border-radius: 100%;
+    box-shadow: ;
+}
+
+.acceuil .top {
+    background: #080610 ;
+    height : 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.acceuil .top .left {
+    background: #080610 ;
+    height : 100%;
+    width: 55%;
+}
+
+.acceuil .top .right {
+    background: #080610;
+    background: linear-gradient(146deg, rgba(255,235,126,1) 0%, rgba(240,109,24,1) 66%);
+    height : 100%;
+    width: 50%;
+    border-bottom-left-radius: 200px;
+}
