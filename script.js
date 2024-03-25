@@ -257,7 +257,7 @@ window.onscroll = function() {
 
 let currentProjectGroup = 1;
 const projectsPerPage = 3;
-const totalProjects = 10;
+const totalProjects = 11;
 
 function showProjects() {
     const startProject = (currentProjectGroup - 1) * projectsPerPage;
@@ -490,6 +490,27 @@ function FermerContainerSmallProj10() {
   contain.style.display = 'none';
 
   const overlay = document.querySelector('.container-via-button-small-proj10');
+  overlay.style.opacity = '0';  
+  overlay.style.display = 'none';
+}
+
+
+function AfficheSmallButtonProj11() {
+  const contain = document.querySelector('.contain-Affiche-small-proj11');
+  contain.style.opacity = '1';  
+  contain.style.display = 'block';
+  
+  const overlay = document.querySelector('.container-via-button-small-proj11');
+  overlay.style.opacity = '1';  
+  overlay.style.display = 'block';
+}
+
+function FermerContainerSmallProj11() {
+  const contain = document.querySelector('.contain-Affiche-small-proj11');
+  contain.style.opacity = '0';  
+  contain.style.display = 'none';
+
+  const overlay = document.querySelector('.container-via-button-small-proj11');
   overlay.style.opacity = '0';  
   overlay.style.display = 'none';
 }

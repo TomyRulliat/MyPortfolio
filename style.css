@@ -1816,6 +1816,7 @@ nav .right #burgerNav a:hover {
   .contain-Affiche-small-proj7,
   .contain-Affiche-small-proj8,
   .contain-Affiche-small-proj9,
+  .contain-Affiche-small-proj11,
   .contain-Affiche-small-proj10 {
     top:0;
     left:0;
@@ -1837,6 +1838,7 @@ nav .right #burgerNav a:hover {
 .contain-Affiche-small-proj7 .container-via-button-small-proj7,
 .contain-Affiche-small-proj8 .container-via-button-small-proj8,
 .contain-Affiche-small-proj9 .container-via-button-small-proj9,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11,
 .contain-Affiche-small-proj10 .container-via-button-small-proj10 {
     border:5px solid white;
     background-color:#2b133dce ;
@@ -1861,6 +1863,7 @@ nav .right #burgerNav a:hover {
 .contain-Affiche-small-proj7 .container-via-button-small-proj7 .button-X,
 .contain-Affiche-small-proj8 .container-via-button-small-proj8 .button-X,
 .contain-Affiche-small-proj9 .container-via-button-small-proj9 .button-X,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 .button-X,
 .contain-Affiche-small-proj10 .container-via-button-small-proj10 .button-X{
     background-color: transparent;
     border: none;
@@ -1885,6 +1888,7 @@ nav .right #burgerNav a:hover {
   .contain-Affiche-small-proj7 .container-via-button-small-proj7 .button-X:hover ,
   .contain-Affiche-small-proj8 .container-via-button-small-proj8 .button-X:hover,
   .contain-Affiche-small-proj9 .container-via-button-small-proj9 .button-X:hover,
+  .contain-Affiche-small-proj11 .container-via-button-small-proj11 .button-X:hover,
   .contain-Affiche-small-proj10 .container-via-button-small-proj10 .button-X:hover  {
     color: #ffffff; /* Couleur du X au survol */
   }
@@ -1899,6 +1903,7 @@ nav .right #burgerNav a:hover {
   .contain-Affiche-small-proj7 .container-via-button-small-proj7 h2,
   .contain-Affiche-small-proj8 .container-via-button-small-proj8 h2,
   .contain-Affiche-small-proj9 .container-via-button-small-proj9 h2,
+  .contain-Affiche-small-proj11 .container-via-button-small-proj11 h2,
   .contain-Affiche-small-proj10 .container-via-button-small-proj10 h2{
     font-family: "Gilroy-Bold";
     color : white;
@@ -1916,6 +1921,7 @@ nav .right #burgerNav a:hover {
 .contain-Affiche-small-proj7 .container-via-button-small-proj7 h3,
 .contain-Affiche-small-proj8 .container-via-button-small-proj8 h3,
 .contain-Affiche-small-proj9 .container-via-button-small-proj9 h3,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 h3,
 .contain-Affiche-small-proj10 .container-via-button-small-proj10 h3{
     font-family: "Gilroy-Light";
     color : white;
@@ -1933,6 +1939,7 @@ nav .right #burgerNav a:hover {
 .contain-Affiche-small-proj7 .container-via-button-small-proj7 p,
 .contain-Affiche-small-proj8 .container-via-button-small-proj8 p,
 .contain-Affiche-small-proj9 .container-via-button-small-proj9 p,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 p,
 .contain-Affiche-small-proj10 .container-via-button-small-proj10 p{
     font-family: "Gilroy-Light";
     color : white;
@@ -1950,9 +1957,10 @@ nav .right #burgerNav a:hover {
 .contain-Affiche-small-proj7 .container-via-button-small-proj7 img,
 .contain-Affiche-small-proj8 .container-via-button-small-proj8 img,
 .contain-Affiche-small-proj9 .container-via-button-small-proj9 img,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 img,
 .contain-Affiche-small-proj10 .container-via-button-small-proj10 img{
-    transform: translateX(30%);
-    width: 40vw;
+    transform: translateX(12%);
+    width: 50vw;
     height:30vw;
     margin: 20px;
 }
