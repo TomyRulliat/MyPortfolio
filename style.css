@@ -1829,6 +1829,62 @@ nav .right #burgerNav a:hover {
     opacity: 0; /* Commencez avec une opacité à 0 */
     transition: opacity 2s;
 }
+
+
+.contain-Affiche-small-proj1 .container-via-button-small-proj1 .contain-down,
+.contain-Affiche-small-proj2 .container-via-button-small-proj2 .contain-down,
+.contain-Affiche-small-proj3 .container-via-button-small-proj3 .contain-down,
+.contain-Affiche-small-proj4 .container-via-button-small-proj4 .contain-down,
+.contain-Affiche-small-proj5 .container-via-button-small-proj5 .contain-down,
+.contain-Affiche-small-proj6 .container-via-button-small-proj6 .contain-down,
+.contain-Affiche-small-proj7 .container-via-button-small-proj7 .contain-down,
+.contain-Affiche-small-proj8 .container-via-button-small-proj8 .contain-down,
+.contain-Affiche-small-proj9 .container-via-button-small-proj9 .contain-down,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 .contain-down,
+.contain-Affiche-small-proj10 .container-via-button-small-proj10 .contain-down {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contain-Affiche-small-proj1 .container-via-button-small-proj1 .aaa,
+.contain-Affiche-small-proj2 .container-via-button-small-proj2 .aaa,
+.contain-Affiche-small-proj3 .container-via-button-small-proj3 .aaa,
+.contain-Affiche-small-proj4 .container-via-button-small-proj4 .aaa,
+.contain-Affiche-small-proj5 .container-via-button-small-proj5 .aaa,
+.contain-Affiche-small-proj6 .container-via-button-small-proj6 .aaa,
+.contain-Affiche-small-proj7 .container-via-button-small-proj7 .aaa,
+.contain-Affiche-small-proj8 .container-via-button-small-proj8 .aaa,
+.contain-Affiche-small-proj9 .container-via-button-small-proj9 .aaa,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 .aaa,
+.contain-Affiche-small-proj10 .container-via-button-small-proj10 .aaa  {
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 105%;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    font-family:'Gilroy-Bold';
+    transition: 0.3s;
+    position: relative;
+    margin-left: 4vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.contain-Affiche-small-proj1 .container-via-button-small-proj1 .aaa:hover,
+.contain-Affiche-small-proj2 .container-via-button-small-proj2 .aaa:hover,
+.contain-Affiche-small-proj3 .container-via-button-small-proj3 .aaa:hover,
+.contain-Affiche-small-proj4 .container-via-button-small-proj4 .aaa:hover,
+.contain-Affiche-small-proj5 .container-via-button-small-proj5 .aaa:hover,
+.contain-Affiche-small-proj6 .container-via-button-small-proj6 .aaa:hover,
+.contain-Affiche-small-proj7 .container-via-button-small-proj7 .aaa:hover,
+.contain-Affiche-small-proj8 .container-via-button-small-proj8 .aaa:hover,
+.contain-Affiche-small-proj9 .container-via-button-small-proj9 .aaa:hover,
+.contain-Affiche-small-proj11 .container-via-button-small-proj11 .aaa:hover,
+.contain-Affiche-small-proj10 .container-via-button-small-proj10 .aaa:hover {
+    background-color: inherit ;
+    color: #A626CA;
+}
 .contain-Affiche-small-proj1 .container-via-button-small-proj1,
 .contain-Affiche-small-proj2 .container-via-button-small-proj2,
 .contain-Affiche-small-proj3 .container-via-button-small-proj3,
